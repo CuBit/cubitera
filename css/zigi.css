@@ -1,0 +1,28 @@
+/* 
+    Document   : iframe
+    Created on : Mar 22, 2008, 8:47:26 PM
+    Author     : ispires
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+iframe {
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+
+    border-top-color: #999999;
+    border-bottom-color: #999999;
+    border-left-color: #999999;
+    border-right-color: #999999;
+}
+

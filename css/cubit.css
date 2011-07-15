@@ -1,0 +1,121 @@
+/* 
+    Document   : cubit
+    Created on : Apr 13, 2008, 10:34:26 PM
+    Author     : ispires
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+
+}
+A:link {text-decoration: none; color:#009999;}
+A:visited {text-decoration: none; color:#009999;}
+A:active {text-decoration: none; color:#009999;}
+A:hover {text-decoration: underline; color:#009999;}
+
+
+.divWinCuBit {
+visibility:visible; 
+position: absolute;
+left:200px;
+top: 15px;
+height: 56px;
+width:618px;
+background-color: #E9F2FA;
+border:hidden;
+z-index:21;
+}
+
+.textChatCuBit{
+width:610px;
+height:31px;
+overflow-y:auto;
+overflow-x:hidden;
+background-color: #FFFFFF;
+border:inset;
+border-color:#999999;
+border-width:3px;
+}
+.textDeTrimisCuBit{
+width:540px;
+height:15px;
+border:0px;
+overflow-y:auto;
+overflow-x:hidden;
+vertical-align:top;
+}
+
+.button{
+height:16px;
+width:73px;
+font-size:12px;
+border:hidden;
+border-bottom-style:none;
+border-right-style:none;
+border-left-style:none;
+border-top-style:none;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:bold;
+vertical-align:top;
+}
+
+.divUtilCuBit{
+position: absolute;
+width:76px;
+height:16px;
+top:0px;
+border:inset;
+border-color:#999999;
+border-width:1px;
+border-bottom-style:none;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:12px;
+background:#E9F2FB;
+z-index:21; 
+}
+
+.UtiX nobr{
+    background-image: url(butonInchidere.gif);
+    background-position: center center;
+    border: none;
+    width: 15px;
+    height: 15px;
+}
+
+
+.UtiX nobr:hover {
+background-image: url(butonInchidereOn.gif);
+width: 15px;
+height: 15px;
+}
+
+.tabTbl{
+    cursor:pointer;
+    border-collapse:collapse;
+    height:15px;
+    float:left;
+}
+
+.tabLbl{
+    overflow:hidden;
+    height:15px;
+    font-size:12px;
+}
+
+.tabLblCell{
+    font-weight:bold;
+    color:#7a8180;
+    overflow:hidden;
+}
+
+.tabTbl tablLblCell{
+    margin-left:2px;
+}
